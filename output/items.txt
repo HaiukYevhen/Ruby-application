@@ -1,0 +1,18 @@
+Item:
+  name: Ergonomic Copper Computer
+  price: 712.0
+  description: Quo minus recusandae. Eligendi suscipit aliquam. Facilis ut praesentium.
+  category: Outdoors
+  image_path: media/products/et.jpg
+Item:
+  name: Sleek Steel Gloves
+  price: 161.0
+  description: Repudiandae facilis nesciunt. Necessitatibus temporibus et. Autem laborum molestiae.
+  category: Beauty
+  image_path: media/products/illo.jpg
+Item:
+  name: Lightweight Bronze Car
+  price: 403.0
+  description: Ullam molestias similique. Omnis debitis rerum. Quidem illo et.
+  category: Health
+  image_path: media/products/vel.jpg

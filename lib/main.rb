@@ -2,6 +2,22 @@ require "httparty"
 require "nokogiri"
 require "json"
 require "csv"
+require_relative "../lib/app_config_loader"
+require_relative "../lib/logger_manager"
+
+include HaiukApplication
+# 2. Завантаження конфігів
+config = AppConfigLoader.config(
+  "config/yaml_config/default_config.yaml",
+  "config/yaml_config"
+)
+
+# Перевірка
+AppConfigLoader.pretty_print_config_data
+
+LoggerManager.setup(config)
+LoggerManager.log_processed_file("Конфігурації успішно завантажені.")
+LoggerManager.log_error("Це тестове повідомлення про помилку.")
 
 URL = "https://quotes.toscrape.com/"
 

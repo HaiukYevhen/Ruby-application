@@ -1,0 +1,6 @@
+web_scraping:
+  start_page: https://quotes.toscrape.com
+  product_name_selector: ".author"
+  product_price_selector: ".text"
+  product_description_selector: ".tags"
+  product_image_selector: "img"
